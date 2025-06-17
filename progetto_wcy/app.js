@@ -156,7 +156,6 @@ function totalCart(dati) {
 
 //bottone di acquisto finale
 function buyBtnCart() {
-  console.log(dati)
   const buyBtn = document.getElementById("buyBtn");
   if (!dati || dati.length === 0) {
     buyBtn.disabled = true;
